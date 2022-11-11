@@ -2,7 +2,7 @@
 
 ### Developed using
 
-    - React.js
-    - Context API
+    -> React.js
+    -> Context API
 
 ### Deployment Link :
