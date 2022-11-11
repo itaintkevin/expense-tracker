@@ -17,7 +17,7 @@ const styles = {
 export default function AddTransaction() {
 
   const [text, setText] = useState(""); 
-  const [amount, setAmount] = useState(0);
+  const [amount, setAmount] = useState("");
   const { addTransaction } = useContext(GlobalContext);
 
   const onSubmit = (e) => {
@@ -31,7 +31,7 @@ export default function AddTransaction() {
 
     addTransaction(newTransaction);
     setText("");
-    setAmount(0);
+    setAmount("");
   }
 
   return (
