@@ -7,7 +7,7 @@ import AddTransaction from './components/AddTransaction'
 import { GlobalProvider } from './context/GlobalContext'
 
 const styles = {
-  container: `h-full sm:h-screen w-screen flex flex-col items-center justify-center bg-gray-100`,
+  container: `min-h-screen w-screen flex flex-col items-center justify-center bg-gray-100`,
 }
 
 function App() {
